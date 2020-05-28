@@ -1,0 +1,164 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Dr Gouirand - Neurologue</title>
+
+		<meta name="description" content="Dr Romain Gouirand, Neurologue Nice ... ajouter description" />
+
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<link href="style_responsive.css" type="text/css" rel="stylesheet">	
+		<link href="language-specific.css" type="text/css" rel="stylesheet">
+
+		<script type="text/javascript" src="animation.js"></script>
+
+	</head>
+
+	<body>	
+
+		<section id="landing"> 
+			<div class="intro-info">
+				<p class="intro name">Docteur Romain GOUIRAND</p>
+				<p class="intro neuro">Neurologue</p>
+				<p class="intro address">Nice | 6 rue Adolphe de Rothschild (<a href="#getting-there" class="link-directions">directions</a>)</p><br>
+				<p class="intro contact"><a class="phone-nbr" href="tel:0492261003">04 92 26 10 03</a></p>
+				<p class="intro contact"><a class="email-intro links-effect" href="mailto:secretariat@gouirand.com">secretariat@gouirand.com</a></p>
+			</div>
+
+			<ul class="lang">
+				<li class="lang"><a href="#" id="selected-lang">Français</a></li>
+				<li class="lang">|</li>
+				<li class="lang en"><a href="index-en.html" class="links-effect">English</a></li>
+			</ul>
+
+			<p class="see-more"><a href="#education" class="arrow-down">&#9098;</a><br>Voir plus <br></p>
+
+		</section>
+
+		<section id="education">
+			<div class="section-title">Formation</div>
+
+			<div class="study-cycle gen-medicine">
+				<p class="cycle-name"><a class="links-effect">Formation Médicale Générale</a></p>
+				<p class="cycle-location">Faculté de Médecine de Nice</p>
+
+				<ul class="cycle-elem-list">
+					<li class="cycle-elem">Premier et Deuxième cycle des études médicales : 1982-1988</li>
+					<li class="cycle-elem">Concours de l’Internat de Médecine promotion 1988</li>
+				</ul>
+			</div>
+
+			<div class="study-cycle spe-medicine">
+				<p class="cycle-name"><a class="links-effect">Formation Médicale Spécialisée</a></p>
+				<p class="cycle-location">Faculté de Médecine de Marseille</p>
+
+				<ul class="cycle-elem-list">
+					<li class="cycle-elem">Interne des Hôpitaux (Hôpital de la Timone) : 1988 - 1993</li>
+					<li class="cycle-elem">Chef de Clinique des Universités – Assistant des Hôpitaux : 1993 – 1995</li>
+				</ul>
+			</div>
+
+			<div class="study-cycle post-medicine">
+				<p class="cycle-name"><a class="links-effect">Formation Médicale Post-Universitaire</a></p>
+			
+
+				<p class="cycle-location">Faculté de Médecine de Marseille</p>
+				<ul class="cycle-elem-list">
+					<li class="cycle-elem">Attestation d’Electrophysiologie cérébrale (1992 - 1993)</li>
+					<li class="cycle-elem">Diplôme universitaire d’Electromyographie et d’étude des maladies neuromusculaires (Pr. Serratrice et Pr. Pouget : 1993 - 1994)</li>
+					<li class="cycle-elem">Attestation d’étude 	approfondie en Neuropsychologie (Pr. Poncet - INSERM U-94 de Lyon : 1993 - 1994)</li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="pro-orgs">
+			<div class="section-title orgs societies">Sociétés Savantes</div>
+			<ul>
+				<li class="org">Membre de la <a class="org links-effect" href="https://www.sf-neuro.org/" target="blank">Société Française de Neurologie</a></li>
+				<li class="org">Membre de l'<a class="org links-effect" href="https://www.aan.com/" target="blank">American Academy of Neurology</a></li>
+			</ul>
+
+			<div class="section-title orgs">Organismes professionnels agréés</div>
+			<ul>
+				<li class="org">Conseil de l’Ordre des Médecins N° 06 8734 – RPPS 10003900312</li>
+			</ul>
+		</section>
+
+
+		<section id="practice">
+			<div class="section-title">Modalités d’exercice médical</div>
+
+			<div class="projects grid"> 
+				<div class="projects med-activity box" id="project1">
+					<span class="project title">
+						Activité médicale
+					</span>
+					<p class="project description"> - Exploration clinique des pathologies du système nerveux central et périphérique<br><br>- Electroencéphalographie (uniquement sur Nice)<br><br>– Interprétation neurologique de l’imagerie du cerveau et de la moelle (TDM – angio TDM – IRM)</p>
+				</div>
+
+				<div class="projects cabinets box" id="project1">
+					<span class="project title">
+						Cabinets médicaux
+					</span>
+					<p class="project description">
+						- Lundi, Mardi, Jeudi et Vendredi :<br><br>
+						<a>6 avenue Adolphe de Rothschild, 06000 Nice</a>
+					<br><br>
+						- Mercredi : <br><br>
+						<a>8 avenue Camille Blanc (<a class="website links-effect" href="http://www.medicalpoint.fr" target="blank">Médical Point</a>), 06240 Beausoleil</a>
+					</p>
+
+				</div>
+
+				<div class="projects others box" id="project1">
+					<span class="project title">
+						Langues & Honoraires
+					</span>
+					<p class="project description">
+						- Langues parlées : Français et Anglais – traductrice disponible pour Italien et Portugais
+						<br><br>
+						- Conventionnement Sécurité Sociale Française : secteur 2 – honoraires libres
+
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="getting-there">
+			<div class="section-title">Comment s’y rendre</div>
+
+			<div class="choose-city">
+				<button class="cabinet nice" onclick="showMap('Nice')">Nice</button>
+				<button class="cabinet beausoleil" onclick="showMap('Beausoleil')">Beausoleil</button>
+			</div>
+
+
+			<div id="GoogleMap"> 
+			</div>
+
+			<div class="directions directions-Nice"> 
+				<p class="guide intro address">6 avenue Adolphe de Rothschild
+					<br><span class="details-address">(Angle du 5 boulevard Dubouchage)</span>
+					<br><span class="parking">Parking</span> : Marshall
+				</p>
+			</div>
+
+			<div class="directions directions-Beausoleil"> 
+				<p class="guide intro address">Medical Point, <a class="website links-effect" href="http://www.medicalpoint.fr" target="blank">site web</a>.
+					<br>8 avenue Camille Blanc 
+					<br><span class="parking">Parkings</span> : Libération et Saint-Charles
+				</p>
+			</div>
+
+			<button class="back" onclick="goBack()">Retour</button>
+
+
+
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwzaxN_EYWYo8DogVMUkX7fjsZptsiXS4&callback=initMap"></script>	
+		</section>
+
+
+
+	</body>
+
+</html>
+

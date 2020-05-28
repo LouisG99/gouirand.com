@@ -1,0 +1,88 @@
+@media only screen and (orientation: portrait) {
+	.phone-nbr {
+		border-bottom: 4px solid #528ec7;
+	}
+	#pro-orgs {
+		background-image: url("images/court_edit_phone.jpg");
+	}
+
+	li.lang {
+		font-size: 35px;
+	}
+	.see-more {
+		font-size: 40px;
+	}a.arrow-down {
+		font-size: 90px;
+	}
+
+	/*EDUCATION*/
+	.study-cycle {
+		max-width: 80%;
+	}
+
+	/*MEDICAL ACTIVITY*/
+	.projects.grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.project.title {
+		height: 7vh;
+		font-size: 35px;
+	}
+	.project.description {
+		font-size: 28px;
+	}
+	.projects.others {
+		grid-column: 1 / 3;
+		width: 45%;
+	}
+
+	.section-title.orgs {
+		padding-bottom: 5vh;
+	}	
+
+	/*GETTING-THERE*/
+	.choose-city {
+		width: 80%;
+		left: 10%;
+	}
+	button.cabinet {
+		padding-top: 20%; 
+		padding-bottom: 20%;
+		font-size: 50px;
+	}
+	#GoogleMap {
+		width: 70%; 
+		height: 40vh;
+		left: 15%;
+	}
+
+	.directions, .back {
+		margin-top: 45vh;
+	}
+	.back, .intro.address.guide {
+		font-size: 30px;
+	}
+	.details-address {
+		font-size: 25px;
+	}	
+	.directions {
+		left: 20%;
+		width: 30%;
+	}
+	.back {
+		width: 15%;
+		left: 65%;
+		height: 5vh;
+	}
+
+}
+
+@media only screen and (orientation: landscape) and (max-width: 800px) {
+	.directions {
+		margin-top: 5vh;
+	}
+	.back {
+		margin-top: 45vh;
+	}
+
+}

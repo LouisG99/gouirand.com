@@ -1,0 +1,166 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Dr Gouirand - Neurologue</title>
+
+		<meta name="description" content="Dr Romain Gouirand, Neurologue Nice ... ajouter description" />
+
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<link href="style_responsive.css" type="text/css" rel="stylesheet">	
+		<link href="style_responsive.css" type="text/css" rel="stylesheet">	
+		<link href="language-specific.css" type="text/css" rel="stylesheet">	
+
+		<script type="text/javascript" src="animation.js"></script>
+
+	</head>
+
+	<body>	
+
+		<section id="landing"> 
+			<div class="intro-info">
+				<p class="intro name">Doctor Romain GOUIRAND</p>
+				<p class="intro neuro">Neurologist</p>
+				<p class="intro address">Nice | 6 rue Adolphe de Rothschild (<a href="#getting-there" class="link-directions">directions</a>)</p><br>
+				<p class="intro contact"><a class="phone-nbr" href="tel:0492261003">04 92 26 10 03</a></p>
+				<p class="intro contact"><a class="email-intro links-effect" href="mailto:secretariat@gouirand.com">secretariat@gouirand.com</a></p>
+			</div>
+
+			<ul class="lang">
+				<li class="lang"><a href="index.html" class="links-effect">Français</a></li>
+				<li class="lang">|</li>
+				<li class="lang"><a href="#" id="selected-lang" >English</a></li>
+			</ul>
+
+			<p class="see-more"><a href="#education" class="arrow-down">&#9098;</a><br>See more<br></p>
+
+		</section>
+
+		<section id="education">
+			<div class="section-title">Education</div>
+
+			<div class="study-cycle gen-medicine">
+				<p class="cycle-name"><a class="links-effect">General Medical Studies</a></p>
+				<p class="cycle-location">College of Medicine of Nice</p>
+
+				<ul class="cycle-elem-list">
+					<li class="cycle-elem">First and second cycle of medical studies: 1982-1988</li>
+					<li class="cycle-elem">Entrance examination for Medical Residency, class of 1988</li>
+				</ul>
+			</div>
+
+			<div class="study-cycle spe-medicine">
+				<p class="cycle-name"><a class="links-effect">Specialist Medical Studies</a></p>
+				<p class="cycle-location">College of Medicine of Marseille</p>
+
+				<ul class="cycle-elem-list">
+					<li class="cycle-elem">Resident at the Hôpital de la Timone: 1988 - 1993</li>
+					<li class="cycle-elem">Clinical director of the Universities - Assistant of the Hospitals of Marseille: 1993 – 1995</li>
+				</ul>
+			</div>
+
+			<div class="study-cycle post-medicine">
+				<p class="cycle-name"><a class="links-effect">
+				Continuing Medical Education</a></p>
+			
+
+				<p class="cycle-location">College of Medicine of Marseille</p>
+				<ul class="cycle-elem-list">
+					<li class="cycle-elem">Certificate in Brain Electrophysiology (1992 - 1993)</li>
+					<li class="cycle-elem">University diploma in Electromyography and studies of neuromuscular diseases (M.D. Serratrice and M.D. Pouget : 1993 - 1994)</li>
+					<li class="cycle-elem">Certificate for comprehensive studies in Neuropsychology (M.D. Poncet - INSERM U-94 of Lyon : 1993 - 1994)</li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="pro-orgs">
+			<div class="section-title orgs societies">Scientific Societies</div>
+			<ul>
+				<li class="org">Member of the <a class="org links-effect" href="https://www.sf-neuro.org/" target="blank">French Society of Neurology</a></li>
+				<li class="org">Member of the <a class="org links-effect" href="https://www.aan.com/" target="blank">American Academy of Neurology</a></li>
+			</ul>
+
+			<div class="section-title orgs">Professional accredited organizations</div>
+			<ul>
+				<li class="org">French Medical Association # 06 8734 – RPPS 10003900312</li>
+			</ul>
+		</section>
+
+
+		<section id="practice">
+			<div class="section-title">Terms of the Medical Practice</div>
+
+			<div class="projects grid"> 
+				<div class="projects med-activity box" id="project1">
+					<span class="project title">
+						Medical Activity
+					</span>
+					<p class="project description"> - Clinical examination of pathologies of the central and peripheral nervous systems<br><br>- Electroencephalography (only in Nice)<br><br> - Neurological interpretation of brain and spinal cord imagery (CT – CT angiography – MRI)</p>
+				</div>
+
+				<div class="projects cabinets box" id="project1">
+					<span class="project title">
+						Offices
+					</span>
+					<p class="project description">
+						- Monday, Tuesday, Thursday and Friday:<br><br>
+						<a>6 avenue Adolphe de Rothschild, 06000 Nice</a>
+					<br><br>
+						- Wednesday: <br><br>
+						<a>8 avenue Camille Blanc (<a class="website links-effect" href="http://www.medicalpoint.fr" target="blank">Medical Point</a>), 06240 Beausoleil</a>
+					</p>
+
+				</div>
+
+				<div class="projects others box" id="project1">
+					<span class="project title">
+						Languages & Pricing
+					</span>
+					<p class="project description">
+						- Spoken languages : French and English – translator available for Italian and Portuguese
+						<br><br>
+						- Social security standard scale of charges: 2nd sector – non-fixed fees
+
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="getting-there">
+			<div class="section-title">How to get there</div>
+
+			<div class="choose-city">
+				<button class="cabinet nice" onclick="showMap('Nice')">Nice</button>
+				<button class="cabinet beausoleil" onclick="showMap('Beausoleil')">Beausoleil</button>
+			</div>
+
+
+			<div id="GoogleMap"> 
+			</div>
+
+			<div class="directions directions-Nice"> 
+				<p class="guide intro address">6 avenue Adolphe de Rothschild
+					<br><span class="details-address">(Angle of the 5 boulevard Dubouchage)</span>
+					<br><span class="parking">Car park</span> : Marshall
+				</p>
+			</div>
+
+			<div class="directions directions-Beausoleil"> 
+				<p class="guide intro address">Medical Point, <a class="website links-effect" href="http://www.medicalpoint.fr" target="blank">website</a>.
+					<br>8 avenue Camille Blanc 
+					<br><span class="parking">Car parks</span> : Libération and Saint-Charles
+				</p>
+			</div>
+
+			<button class="back" onclick="goBack()">Back</button>
+
+
+
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwzaxN_EYWYo8DogVMUkX7fjsZptsiXS4&callback=initMap"></script>	
+		</section>
+
+
+
+	</body>
+
+</html>
+
