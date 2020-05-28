@@ -1,4 +1,9 @@
 @media only screen and (orientation: portrait) {
+	#landing, #education, #pro-orgs, #practice, #getting-there {
+		background-position: initial; 
+		background-position-x: center;
+	}
+
 	.phone-nbr {
 		border-bottom: 4px solid #528ec7;
 	}
