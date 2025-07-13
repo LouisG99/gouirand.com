@@ -1,6 +1,6 @@
 const loc_coords = { 
 	'Nice': {lat: 43.703908, lng: 7.273409}, 
-	'Beausoleil': {lat: 43.742177, lng: 7.424605}, 
+	'Monaco': {lat: 43.742177, lng: 7.424605}, 
 };
 
 var map = null; 
